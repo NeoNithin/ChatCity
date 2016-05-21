@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/turquoiseSplash"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.appsterden.chatcity.custom.fonted.LatoBoldTv
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="CHAT CITY"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_marginRight="3dp"-->
+            <!--android:background="@drawable/rectangle_straight"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="6dp">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:layout_marginRight="@dimen/s2"-->
+            <!--android:background="@drawable/wallet" />-->
+
+            <!--<com.appsterden.chatcity.custom.fonted.LatoMediumTv-->
+            <!--android:id="@+id/currency"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/rs" />-->
+
+            <!--<com.appsterden.chatcity.custom.fonted.LatoMediumTv-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:text="100"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textStyle="bold" />-->
+
+            <!--</LinearLayout>-->
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <com.appsterden.chatview.ChatView
+        android:id="@+id/chat_view"
+        app:inputBarBackgroundColor="@color/white"
+        app:sendBtnIconTint="@color/blue"
+        app:inputBackgroundColor="@android:color/transparent"
+        app:sendBtnBackgroundTint="@android:color/transparent"
+        app:inputElevation="0dp"
+        app:inputTextSize="20sp"
+        app:sendBtnElevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

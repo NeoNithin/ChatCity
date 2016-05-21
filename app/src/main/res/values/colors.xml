@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="white">#ffffff</color>
+
+        <color name="colorPrimary">#E91E63</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#16a085</color>
+
+        <color name="blueBackground">#439FE0</color>
+        <color name="turquoiseSplash">#1abc9c</color>
+        <color name="purpleSplash">#E91E63</color>
+
+        <color name="teal">#009688</color>
+
+        <color name="colorHead">#363147</color>
+        <color name="colorpara">#8b8a8d</color>
+        <color name="icon_disabled">#FF63727B</color>
+
+        <color name="transperent_black">#aa000000</color>
+        <color name="blue">#4099FF</color>
+        <color name="black">#000000</color>
+        <color name="sinch_purple">#63029d</color>
+        <color name="sinch_purple_darker">#ff380258</color>
+        <color name="off_white">#fffafafa</color>
+        <color name="dark_gray">#ffb3b3b3</color>
+        <color name="very_dark_gray">#636363</color>
+        <color name="u_blue_light">#4A90E2</color>
+        <color name="u_blue">#4A90E2</color>
+        <color name="u_blue_darker">#ff31649a</color>
+        <color name="twinder_purple_2">#D01FA4</color>
+        <color name="bold_username">#4D4D4D</color>
+        <color name="faint_real_name">#999999</color>
+        <color name="facebook_blue">#3B5998</color>
+        <color name="main_color_gray">#7d7d7d</color>
+
+        <color name="default_bubble_color_rcv">@color/black</color>
+        <color name="default_bubble_color_send">@color/white</color>
+
+        <color name="default_tstamp_color_rcv">@color/off_white</color>
+        <color name="default_tstamp_color_send">@color/main_color_gray</color>
+
+        <color name="default_message_color_rcv">@color/white</color>
+        <color name="default_message_color_send">@color/black</color>
+
+</resources>
